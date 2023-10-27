@@ -12,6 +12,10 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.9.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "pattern.css": "^1.0.0"
   }
 }
