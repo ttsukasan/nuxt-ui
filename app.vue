@@ -1,5 +1,14 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Site Title` : 'Site Title';
+  },
+  meta: [{ property: 'og:title', content: `App Name OGP` }]
+})
+</script>
+
 <template>
-  <UContainer class="min-h-screen bg-yellow-50 box-border border border-dashed border-yellow-700">
-    <NuxtPage />
-  </UContainer>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
