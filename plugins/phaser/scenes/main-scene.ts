@@ -15,7 +15,6 @@ export class MainScene extends Phaser.Scene {
   }
 
   create(): void {
-    // @ts-ignore
     const particles = this.add.particles('redParticle');
 
     const emitter = particles.createEmitter({
@@ -31,7 +30,6 @@ export class MainScene extends Phaser.Scene {
       texture: 'redhat'
     });
 
-    // @ts-ignore
     emitter.startFollow(this.myRedhat);
   }
 }

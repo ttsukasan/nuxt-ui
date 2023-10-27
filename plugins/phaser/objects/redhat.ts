@@ -1,9 +1,7 @@
 import {type IImageConstructor } from '../interfaces/image.interface';
-// import IImageConstructor = require('../interfaces/image.interface')
 
 export class Redhat extends Phaser.GameObjects.Image {
-  // @ts-ignore
-  body: Phaser.Physics.Arcade.Body;
+  declare body: Phaser.Physics.Arcade.Body;
 
   constructor(aParams: IImageConstructor) {
     super(aParams.scene, aParams.x, aParams.y, aParams.texture, aParams.frame);
