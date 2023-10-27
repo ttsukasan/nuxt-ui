@@ -14,7 +14,7 @@ useHead({
   <div class="bg-stone-50">
     <div class="pattern-diagonal-stripes-sm  text-stone-100">
       <!-- 背景ここまで -->
-      <NuxtLayout class="text-neutral-800">
+      <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>
     </div>
