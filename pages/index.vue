@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="bg-violet-100 box-border border border-dashed border-violet-700">
+  <div class="bg-yellow-50 box-border border border-dashed border-yellow-700">
     <h1 class="text-3xl mb-3">Home</h1>
     <p>message</p>
     <!--- link to about -->
