@@ -16,6 +16,7 @@
     "sass": "^1.69.5"
   },
   "dependencies": {
-    "pattern.css": "^1.0.0"
+    "pattern.css": "^1.0.0",
+    "phaser": "3.55"
   }
 }
