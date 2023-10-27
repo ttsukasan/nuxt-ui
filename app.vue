@@ -10,14 +10,13 @@ useHead({
 </script>
 
 <template>
-  <div>
-    <div class="absolute min-h-screen w-full bg-stone-50 -z-10">
-      <div class="min-h-screen w-full pattern-diagonal-stripes-sm  bg-stone-800 text-stone-100">
-        <!-- 背景 -->
-      </div>
+  <!-- 背景ここから -->
+  <div class="bg-stone-50">
+    <div class="pattern-diagonal-stripes-sm  text-stone-100">
+      <!-- 背景ここまで -->
+      <NuxtLayout class="text-neutral-800">
+        <NuxtPage/>
+      </NuxtLayout>
     </div>
-    <NuxtLayout>
-      <NuxtPage/>
-    </NuxtLayout>
   </div>
 </template>
